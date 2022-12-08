@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: #000;
+  background-image: url('https://c.tenor.com/5KDJWSgKWcUAAAAd/anime-wallpaper.gif/*https://c.tenor.com/mlDzdW0ZdVAAAAAd/wallpaper.gif*/');
+  background-repeat: ;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#parentEditor {
+  width: 90%;
+  margin: auto;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding-bottom: 20px;
+  background-color: black;
+  opacity: 0.9;
+}
+
+#paintelEditor {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  background-color: black;
+}
+
+
+#editor {
+  padding: 10px;
+  height: 550px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  color: white;
+}
+
+.btnColor {
+  font-size: 15px;
+  font-weight: bold;
+  outline:  none;
+  border: none;
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+
+#fontColor {
+  color: white;
+}
+
+#backColor {
+  color: white;
+}
+
+
+#paleta {
+  width: 15px;
+  height: 15px;
+  border: none;
+  outline: none;
+}
+
+
+.demo-icon {
+  cursor: pointer;
+  color: #3d3d3d;
+}
+
+.demo-icon:hover {
+  color: gray;
+}
+
+#inputFontSize {
+  border: 1px;
+  outline: none;
+  border-radius: 3px;
+  padding: 2px;
+  color: #3d3d3d;
+  font-size: 9px;
+}
